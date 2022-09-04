@@ -146,7 +146,7 @@
 # plus = lambda x: lambda y: y + x
 # minus = lambda x: lambda y: y - x
 # times = lambda x: lambda y: y * x
-# divided_by = lambda x: lambda y: int(y / x)
+# divided_by = lambda x: lambda y: y // x
 
 # print(three(divided_by(two())))
 # print(four(plus(nine())), 13)
