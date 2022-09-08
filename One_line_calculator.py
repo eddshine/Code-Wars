@@ -15,6 +15,7 @@ result = [None]*(len(list(randNumbers))+len(randOperators))
 # Append list_1 and list_2 in alternating order.
 result[::2] = list(randNumbers)
 result[1::2] = randOperators
+# Joining all chars into one string
 result = ''.join(result)
 
 # Do all calculations using eval and printing the result after that.
